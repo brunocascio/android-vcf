@@ -1,0 +1,24 @@
+{
+  "name": "android-vcf",
+  "version": "1.0.0",
+  "description": "Parse vcf file as a json (name => phone)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "android",
+    "vcf",
+    "phone",
+    "parser",
+    "node"
+  ],
+  "author": "Bruno Cascio <brunocascio@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "mimelib": "^0.2.19"
+  }
+}
