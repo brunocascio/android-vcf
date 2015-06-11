@@ -52,7 +52,7 @@ AndroidVCF.parseStringCSV(CSVString, function(json){
 - `npm test`
 
 
-NOTE: For test, i using mochajs[http://mochajs.org/].
+NOTE: For test, i using [mochajs](http://mochajs.org/).
 
 ## Licence
 
