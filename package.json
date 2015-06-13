@@ -1,6 +1,6 @@
 {
   "name": "android-vcf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse vcf file as a json (name => phone)",
   "main": "index.js",
   "scripts": {
