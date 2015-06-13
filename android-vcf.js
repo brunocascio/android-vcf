@@ -22,16 +22,18 @@ function parse(buffer, cb) {
 
 module.exports = {
 	parseFileCSV: function(vcf, cb) {
-		if(!vcf) 
+		if(!vcf)
 			throw new Error('Not file specified');
 
 		var buffer = fs.readFileSync(vcf, 'utf8');
 
-	    parse(buffer, cb);
+		parse(buffer, cb);
 	},
 	parseStringCSV: function(buffer, cb) {
-		if (!buffer || buffer === '')
-			throw new Error('String is empty');			
-	    parse(buffer, cb);
+		if (!buffer || buffer === ''){
+			throw new Error('String is empty');
+		}
+		
+		parse(buffer, cb);
 	}
 }
