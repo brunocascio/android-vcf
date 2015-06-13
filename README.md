@@ -1,6 +1,6 @@
 # Android-vcf
 
-Parsing an android vcf file.
+[Android-vcf](https://github.com/brunocascio/android-vcf) is a parser for android .vcf files.
 
 ## How to use
 
