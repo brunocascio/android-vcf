@@ -1,3 +1,1 @@
-var AndroidVCF = require('./android-vcf');
-
-module.exports = AndroidVCF;
+module.exports = require('./android-vcf');
