@@ -17,9 +17,9 @@
   "author": "Bruno Cascio <brunocascio@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^4.0.1"
   },
   "dependencies": {
-    "mimelib": "^0.2.19"
+    "mimelib": "^0.3.1"
   }
 }
